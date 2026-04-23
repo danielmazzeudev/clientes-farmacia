@@ -1,0 +1,8 @@
+- GET http://localhost:3000/api/clientes?cidade=Sao&ativo=true
+- GET http://localhost:3000/api/clientes?uf=SP
+- GET http://localhost:3000/api/produtos?categoria=analgesico
+- GET http://localhost:3000/api/produtos?controlado=true&precoMax=30
+- GET http://localhost:3000/api/vendas?clienteId=1
+- GET http://localhost:3000/api/vendas?status=concluida&formaPagamento=pix
+- GET http://localhost:3000/api/vendas?produtoId=3
+- GET http://localhost:3000/api/vendas?dataInicio=2025-03-01&dataFim=2025-03-31
